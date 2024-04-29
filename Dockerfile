@@ -8,8 +8,8 @@ WORKDIR /app
 COPY . /app/
 
 # 安装依赖
-RUN pip install --no-cache-dir -r requirements.txt
-
+RUN apk update && apk add sshpass && pip install --no-cache-dir -r requirements.txt
+    
 # 定义环境变量
 
 ENV TELEGRAM_BOT_API_KEY=""
