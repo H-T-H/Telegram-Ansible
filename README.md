@@ -1,6 +1,8 @@
 # Telegram-ansible
 在Telegram控制ansible
 
+**烂尾中，以后可能再写**
+
 # 前言
 你是否遭遇过，有个自动化的任务没有执行，但是你手边没有电脑？
 
